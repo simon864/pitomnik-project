@@ -27,6 +27,7 @@
 }
 
 .nav-info-container a {
+    font-size: 2vh;
     text-decoration: none;
     color: grey;
 }
@@ -36,5 +37,5 @@
 }
 
 .nav-info-container a:hover {
-    color: brown;
+    color: rgb(80, 164, 103);
 }

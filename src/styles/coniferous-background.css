@@ -1,0 +1,54 @@
+.pine-background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/background-pine.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+}
+
+.pine-background-container p {
+    font-size: 6vh;
+    color: white;
+    font-weight: 600;
+}
+
+.spruce-background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/background-spruce.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+}
+
+.spruce-background-container p {
+    font-size: 6vh;
+    color: white;
+    font-weight: 600;
+}
+
+.fir-background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/background-fir.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+}
+
+.fir-background-container p {
+    font-size: 6vh;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+

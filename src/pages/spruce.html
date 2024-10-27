@@ -3,10 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../images/kemsu-logo.jpg"
+      type="image/jpg"
+    />
     <link rel="stylesheet" href="../styles/common.css" />
     <link rel="stylesheet" href="../styles/nav-bar.css" />
     <link rel="stylesheet" href="../styles/side-bar.css" />
     <link rel="stylesheet" href="../styles/grid-cards.css" />
+    <link rel="stylesheet" href="../styles/coniferous-background.css" />
     <title>Пихты</title>
   </head>
   <body>
@@ -24,6 +30,11 @@
         </ul>
       </div>
     </nav-bar>
+
+    <div class="spruce-background-container">
+      <p>Пихты</p>
+    </div>
+
     <div class="grid-main-content">
       <div class="side-bar">
         <div class="properties">
@@ -55,25 +66,75 @@
               <li><span>Теневыносливые</span></li>
             </ul>
           </div>
+          <div class="calendars-container">
+            <p>Посадочный календарь</p>
+            <span>Дата посадки:</span>
+            <input class="calendar" type="date" name="Date" id="davaToday" />
+            <span>Дата высадки:</span>
+            <input class="calendar" type="date" name="Date" id="davaToday" />
+            <span>Кол-во:</span>
+            <div class="button-in-calendar-container">
+              <input class="quantity" type="number" value="1" min="1" />
+              <button>Добавить</button>
+            </div>
+            <span>Итого:</span>
+            <input class="calendar" type="date" name="Date" id="davaToday" />
+            <span>Осталось посадочных мест:</span>
+          </div>
         </div>
       </div>
+
       <div class="grid-cards-container">
         <div class="pine-mountain">
           <img src="../images/сосна-горная.jpg" alt="" />
+          <div class="pine-text">
+            <p>Пихта "Бальзамическая"</p>
+            <div>
+              <button>Добавить</button>
+            </div>
+          </div>
         </div>
         <div class="small-flowered-pine">
           <img src="../images/сосна-мелкоцветная.jpg" alt="" />
+          <div class="pine-text">
+            <p>Пихта "Корейская"</p>
+            <div>
+              <button>Добавить</button>
+            </div>
+          </div>
         </div>
         <div class="pine-cedar-stlannik">
           <img src="../images/сосна-кедровый-стланник.jpg" alt="" />
+          <div class="pine-text">
+            <p>Пихта "Серебристая"</p>
+            <div>
+              <button>Добавить</button>
+            </div>
+          </div>
         </div>
         <div class="pine-common">
           <img src="../images/сосна-обыкновенная.jpg" alt="" />
+          <div class="pine-text">
+            <p>Пихта "Шершавоплодная"</p>
+            <div>
+              <button>Добавить</button>
+            </div>
+          </div>
         </div>
         <div class="pine-cedar">
           <img src="../images/сосна-кедровая.jpg" alt="" />
+          <div class="pine-text">
+            <p>Пихта "Одноцветная"</p>
+            <div>
+              <button>Добавить</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <script>
+      document.getElementById("davaToday").valueAsDate = new Date();
+    </script>
   </body>
 </html>

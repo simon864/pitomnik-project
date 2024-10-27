@@ -1,26 +1,72 @@
 .grid-main-content {
-    display: grid;
-    grid-template-columns: 20% auto;
-    margin: 1%;
-    margin-top: 2%;
+  display: grid;
+  grid-template-columns: 16% auto;
+  margin: 1%;
+  margin-top: 2%;
 }
 
 .grid-cards-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-row: auto;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row: auto;
+  gap: 20px;
 }
 
 .grid-cards-container img {
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    border-radius: 8px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .grid-cards-container img:hover {
+  opacity: 0.9;
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.grid-cards-container button {
+    width: 100%;
+    height: 4vh;
+    margin-top: 4%;
+    margin-right: 2%;
+    cursor: pointer;
+    background-color: rgb(80, 164, 103);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: "Rubik";
+    font-size: 2vh;
+    font-weight: 500;
+}
+
+.grid-cards-container button:hover {
     transform: scale(1.02);
     opacity: 0.9;
+}
+
+.pine-mountain,
+.small-flowered-pine,
+.pine-cedar-stlannik,
+.pine-common,
+.pine-cedar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2% 2% 2%;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pine-text p{
+    font-size: 20px;
+    margin-top: 4%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.pine-text p:hover {
+    color: rgb(95, 184, 114);
 }
