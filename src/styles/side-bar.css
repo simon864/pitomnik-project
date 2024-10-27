@@ -1,0 +1,60 @@
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 100vh;
+  gap: 20px;
+  background-color: #ede6e6;
+  border-radius: 8px;
+  grid-row: 1;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.side-bar-content {
+  margin-left: 6%;
+}
+
+.side-bar {
+  margin-left: 10px;
+}
+
+.properties {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.side-bar li {
+  list-style: none;
+  padding-left: 6%;
+  color: gray;
+}
+
+.side-bar p {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 4px;
+}
+
+.frost-resistance-container li,
+.kind-container li,
+.light-container li {
+  margin-bottom: 4%;
+}
+
+.frost-resistance-container li:hover,
+.kind-container li:hover,
+.light-container li:hover {
+  color: rgb(95, 184, 114);
+  transform: scale(1.05);
+  cursor: pointer;
+  width: 90%;
+}
+
+.frost-resistance-container p,
+.kind-container p,
+.light-container p {
+  margin-bottom: 4%;
+}
