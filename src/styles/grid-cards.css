@@ -3,6 +3,7 @@
   grid-template-columns: 16% auto;
   margin: 1%;
   margin-top: 2%;
+  height: 100vh;
 }
 
 .grid-cards-container {

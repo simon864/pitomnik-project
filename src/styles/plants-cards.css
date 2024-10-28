@@ -73,8 +73,9 @@
     }
 }
 
-@media (max-width: 431px) {
+@media (max-width: 430px) {
     .plants-cards-container {
         flex-direction: column;
     }
 }
+  
